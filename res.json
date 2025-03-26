@@ -1,0 +1,6293 @@
+dixaData =>  {
+    conversation: {
+      csid: 294566,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '5e2ab7d7-98d0-4bb2-9988-4bf7bace0943',
+        name: 'Doulla Tsourakis',
+        email: 'doullanemesis@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Missing order and cancellation of subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T05:13:38.492Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for doullanemesis@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294566,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '5e2ab7d7-98d0-4bb2-9988-4bf7bace0943',
+        name: 'Doulla Tsourakis',
+        email: 'doullanemesis@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Missing order and cancellation of subscription',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T05:13:38.492Z'
+    }
+  }
+  Customer doullanemesis@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294425,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'a2b48795-2d31-4d17-9ca2-2e1c7433b719',
+        name: 'Gifty Okaitete',
+        email: 'okaiteyegifty@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Something else',
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:02:18.052Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for okaiteyegifty@yahoo.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294426,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '48c00cff-c85e-4d4d-9d0a-64b2342ca3eb',
+        name: 'Valerie Dawson',
+        email: 'daveandval@sky.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has arrived damaged',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:03:50.035Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for daveandval@sky.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294428,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '6eda29a9-debc-4d60-87d3-b7999fb492e4',
+        name: 'Charlotte',
+        email: 'charnally22@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Managing my subscription',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-20T19:08:44.897Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for charnally22@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294567,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9424eb8d-4ee9-410f-b16f-666ce464cea7',
+        name: 'service@paypal.co.uk',
+        email: 'service@paypal.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: "There's been a change to Lindsay Hayward's billing agreement",
+      tags: [ [Object] ],
+      created_at: '2025-03-21T05:22:01.422Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for service@paypal.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294433,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '18d0b443-09e1-460c-9109-3d06873521b3',
+        name: null,
+        email: 'sales@ellie-michael.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'RE: Welcome to Purdy &amp; Figg!',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:17:37.333Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sales@ellie-michael.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294428,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '6eda29a9-debc-4d60-87d3-b7999fb492e4',
+        name: 'Charlotte',
+        email: 'charnally22@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Managing my subscription',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-20T19:08:44.897Z'
+    }
+  }
+  Customer charnally22@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294443,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'bf9405ed-839e-467a-b99c-1fc79250e4da',
+        name: 'Natalie Howarth',
+        email: 'natalie.howarth@btinternet.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: One of my items is missing/incorrect/faulty',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:25:53.919Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for natalie.howarth@btinternet.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294444,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '5a217be6-5bb2-45c8-a62b-abd15732e7a4',
+        name: 'Walter Ormiston',
+        email: 'walter.ormiston1@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Money taken from my account after Subscription Cancellation ',
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:27:28.760Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for walter.ormiston1@outlook.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294445,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'f47a7fd4-5f2e-46d2-ad83-9055b9175558',
+        name: 'Wendy Speakman',
+        email: 'muckypaws71@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'One of buy ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:29:20.593Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for muckypaws71@outlook.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294446,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '3df8e395-01a1-4276-bb6b-8ab7b1bb3632',
+        name: 'Natalie Cummings',
+        email: 'nataliecummings911@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Account access',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:30:24.912Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for nataliecummings911@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294448,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '621d1d34-6f68-4a1b-9a47-a762aa2b9b09',
+        name: 'Hannah Thorne',
+        email: 'hannahthorne@live.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:32:44.476Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for hannahthorne@live.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294569,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9424eb8d-4ee9-410f-b16f-666ce464cea7',
+        name: 'service@paypal.co.uk',
+        email: 'service@paypal.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: "There's been a change to Angela Mitchell's billing agreement",
+      tags: [ [Object] ],
+      created_at: '2025-03-21T05:44:34.922Z'
+    }
+  }
+  Customer service@paypal.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294566,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '5e2ab7d7-98d0-4bb2-9988-4bf7bace0943',
+        name: 'Doulla Tsourakis',
+        email: 'doullanemesis@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Missing order and cancellation of subscription',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T05:13:38.492Z'
+    }
+  }
+  Customer doullanemesis@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294449,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'f088ce44-fcdf-4c14-a57a-06141931f197',
+        name: 'Lana Chalkley',
+        email: 'lanaandalex@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'My one time order',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:33:10.477Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for lanaandalex@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294454,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '485a14f0-aac7-411f-bc20-24da25f47130',
+        name: 'Karen',
+        email: 'karenwilson22@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Card expired ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:38:52.396Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for karenwilson22@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294455,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '0d2c8d27-cb1d-4772-b467-fc6d18774e9f',
+        name: 'Sharon Boyd ',
+        email: 'sm_boyd@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Something else',
+      tags: [ [Object] ],
+      created_at: '2025-03-20T19:39:53.131Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sm_boyd@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294572,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'b65e3cdd-0b8b-4eae-bff1-6f905db44ce2',
+        name: 'Hayley Tresadern',
+        email: 'hayleyt82@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Cancel subscription ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T06:08:10.820Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for hayleyt82@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294572,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'b65e3cdd-0b8b-4eae-bff1-6f905db44ce2',
+        name: 'Hayley Tresadern',
+        email: 'hayleyt82@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Cancel subscription ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T06:08:10.820Z'
+    }
+  }
+  Customer hayleyt82@hotmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294566,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '5e2ab7d7-98d0-4bb2-9988-4bf7bace0943',
+        name: 'Doulla Tsourakis',
+        email: 'doullanemesis@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Missing order and cancellation of subscription',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T05:13:38.492Z'
+    }
+  }
+  Customer doullanemesis@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 291679,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e20cdc52-d01a-414d-92f8-03081c704fa9',
+        name: 'Grace carlin',
+        email: 'snowdoncottage103@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: I just want to order as and when I want',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-17T17:31:49.132Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for snowdoncottage103@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291772,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'a98c0075-1f9a-4d58-9739-cb656c860dad',
+        name: 'Sylvia Sylvia Karmann',
+        email: 'sylviakarmann@googlemail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: I need some help with a delivery',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-17T18:52:26.007Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sylviakarmann@googlemail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294454,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '485a14f0-aac7-411f-bc20-24da25f47130',
+        name: 'Karen',
+        email: 'karenwilson22@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Card expired ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:38:52.396Z'
+    }
+  }
+  Customer karenwilson22@hotmail.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294459,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '08781af0-2b51-4e51-b36c-66d2d61b8e39',
+        name: 'susan croft',
+        email: 'susancroft991@yahoo.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Susan Croft ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:49:34.279Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for susancroft991@yahoo.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291679,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e20cdc52-d01a-414d-92f8-03081c704fa9',
+        name: 'Grace carlin',
+        email: 'snowdoncottage103@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: I just want to order as and when I want',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-17T17:31:49.132Z'
+    }
+  }
+  Customer snowdoncottage103@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294460,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'c042f1ec-f4f4-451e-adf7-a18a5015ba0e',
+        name: 'Mary Shaw',
+        email: 'm.pshaw@talktalk.net',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: What stopped you joining?',
+      tags: [ [Object] ],
+      created_at: '2025-03-20T19:49:48.526Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for m.pshaw@talktalk.net.
+  dixaData =>  {
+    conversation: {
+      csid: 294462,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'df7b628e-a9f1-4dc4-bbc2-22ea9aa947f2',
+        name: 'Carolyn Nugent',
+        email: 'carolyn8888@btopenworld.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'My mum is sadly deceased ',
+      tags: [ [Object] ],
+      created_at: '2025-03-20T19:52:25.100Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for carolyn8888@btopenworld.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294463,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '0c2a77c1-b7ea-45c4-942c-b3dfe2898a45',
+        name: 'Angela Perry',
+        email: 'angelal.perry@btinternet.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: Other',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:56:12.356Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for angelal.perry@btinternet.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294464,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'cd7b9e23-aa10-4fda-b67b-67da9002f00f',
+        name: 'laura gayle',
+        email: 'laura_333@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: '242 Farleigh Road ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:10:00.981Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for laura_333@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294465,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '9446377c-0741-4809-8cf7-2bf9edc719c9',
+        name: 'Nicki',
+        email: 'nickigriffithssouthcombe@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:12:03.621Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for nickigriffithssouthcombe@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294469,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '63ee5dae-59c7-47ae-8643-d6585a5c3579',
+        name: 'Melanie Butler',
+        email: 'smell19@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Authentication ',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T20:18:19.096Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for smell19@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294471,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '492b0338-173d-4f08-b1e6-e0286dd80ccf',
+        name: 'Susan Thornton',
+        email: 'coralessence@virginmedia.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your payment method failed again',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:19:50.160Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for coralessence@virginmedia.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291136,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: '3fe91dc0-7690-462a-a098-c9f0b3d715da',
+        name: 'Naomi James',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T10:28:12.286Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294451,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: '36e57280-ca5a-4eb4-b89c-6eae74267627',
+        name: 'Sam Pooley-Stride Artist',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object] ],
+      created_at: '2025-03-20T19:34:22.308Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 281449,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '454d51cd-87bf-41bd-9136-58ce8847386a',
+        name: 'Mary mannion',
+        email: 'mmannion@sacredh.lbhf.sch.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Order not delivered #2503049',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-07T19:30:14.678Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for mmannion@sacredh.lbhf.sch.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 288276,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '023d8db0-1899-40b6-8fa8-c72abca36c14',
+        name: 'Mail - Priority'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '766cf786-9ee0-49c6-9138-f5127dde7b2e',
+        name: 'Adrian Wilson',
+        email: 'adrian.wilson@orange.fr',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-13T22:06:31.733Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for adrian.wilson@orange.fr.
+  dixaData =>  {
+    conversation: {
+      csid: 294453,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: '44cb97a7-61ff-4fb3-a59d-f247a11f9ebf',
+        name: 'Sandra Wyatt',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T19:37:36.922Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 200205,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '0327077f-204b-40ea-a552-cd2a1cadfeab',
+        name: 'Lynne Fulcher',
+        email: 'lynnefulcher@live.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Urgent Cancellation of attached order',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2024-12-18T00:01:44.262Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for lynnefulcher@live.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294494,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: 'd12de647-5f9c-4ae6-8324-df279a55cec3',
+        name: 'Lorna Fisher/ YogaTeacher/ Therapist/ Former Lawyer',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T21:05:42.824Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294577,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'a67fa97a-85cd-4fcb-907c-4eee47e98093',
+        name: 'Sam Knowles',
+        email: 's.knowles@blc.ac.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Automatic reply: Top Tips from Purdy &amp; Charlotte',
+      tags: [ [Object] ],
+      created_at: '2025-03-21T07:05:07.154Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for s.knowles@blc.ac.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294421,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: 'Purdy & Figg',
+      requester: {
+        id: 'f7fde62d-4e7c-47ee-82bc-3cb093d96062',
+        name: 'Sarah Butler',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object] ],
+      created_at: '2025-03-20T18:57:57.488Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 293715,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: '9321cb85-a56a-4312-ac41-ca7db8c5fef4',
+        name: 'Chloe',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-19T20:36:16.615Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294499,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: 'Purdy & Figg',
+      requester: {
+        id: '44254c0d-92f7-4a10-a616-d5b103e717f7',
+        name: 'Eleanor Anne Clarke',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object] ],
+      created_at: '2025-03-20T21:19:10.414Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294520,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: 'Purdy & Figg',
+      requester: {
+        id: '6ec6e440-9741-4750-a6f0-11aad7bf0924',
+        name: 'Rachel Roberts',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [],
+      created_at: '2025-03-20T22:15:17.854Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294530,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: '4ba8372a-b0c9-4d9f-a418-da410045e23e',
+        name: 'Julie',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:49:49.690Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294541,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: '065b242d-bce6-4950-b971-79485c0f017e',
+        name: 'Seana McCafferty',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T23:38:09.877Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 281449,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '454d51cd-87bf-41bd-9136-58ce8847386a',
+        name: 'Mary mannion',
+        email: 'mmannion@sacredh.lbhf.sch.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Order not delivered #2503049',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-07T19:30:14.678Z'
+    }
+  }
+  Customer mmannion@sacredh.lbhf.sch.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294453,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: '44cb97a7-61ff-4fb3-a59d-f247a11f9ebf',
+        name: 'Sandra Wyatt',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T19:37:36.922Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294474,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'e16fa868-279c-4b91-b27e-ea5d5a7810d2',
+        name: 'Lucy Fynn',
+        email: 'lucy.fynn@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Query',
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:25:42.550Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for lucy.fynn@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294578,
+      channel: 'MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: null,
+      requester: {
+        id: 'f76ccddc-b6a2-40ee-9d1c-01b673f5ed67',
+        name: 'Jemma Schofield',
+        email: 'jemma_watchman@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: null,
+      tags: [ [Object] ],
+      created_at: '2025-03-21T07:09:19.028Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jemma_watchman@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 289476,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '7ff0fec0-0009-4bd9-82f4-2b615616f2b1',
+        name: 'Margaret Sackett',
+        email: 'maggiesackett@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancelling my subscription ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-15T08:42:59.090Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for maggiesackett@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293871,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'c75ac166-50c4-4610-89b7-07a43fa7c24e',
+        name: 'Nadine Bowker',
+        email: 'nadinebowker1@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Multiple payments taken ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-20T08:16:10.461Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for nadinebowker1@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293873,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'e9fae678-224e-42ce-be47-4f473ce1d487',
+        name: 'Elizabeth Casey',
+        email: 'elizabeth.y2k7@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cleaning products',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T08:18:26.622Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for elizabeth.y2k7@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294463,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '0c2a77c1-b7ea-45c4-942c-b3dfe2898a45',
+        name: 'Angela Perry',
+        email: 'angelal.perry@btinternet.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: Other',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T19:56:12.356Z'
+    }
+  }
+  Customer angelal.perry@btinternet.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 291751,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'b47bf30a-6644-4a26-8d7f-abffb52532c2',
+        name: 'Georgina Bell',
+        email: 'georginabell06@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Something else',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ],
+      created_at: '2025-03-17T18:37:52.430Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for georginabell06@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294576,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '023d8db0-1899-40b6-8fa8-c72abca36c14',
+        name: 'Mail - Priority'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'ae8fdc94-8805-4512-be40-555293a65938',
+        name: 'andrea panak',
+        email: 'andreapanak@yahoo.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'not permission ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:01:13.204Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for andreapanak@yahoo.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294130,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'b644547d-89eb-4872-a44a-602146774a4d',
+        name: null,
+        email: 'seanrowlandpianist@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'FW: Customer Callback Request for Parcel: H03LMA0016085433',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T13:36:09.394Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for seanrowlandpianist@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294579,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4006c363-6974-4d16-b773-b28ecab0fd77',
+        name: 'Lyall Schwikkard',
+        email: 'lyall@forrester.co.za',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Delivery ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:13:28.801Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for lyall@forrester.co.za.
+  dixaData =>  {
+    conversation: {
+      csid: 294579,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4006c363-6974-4d16-b773-b28ecab0fd77',
+        name: 'Lyall Schwikkard',
+        email: 'lyall@forrester.co.za',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Delivery ',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:13:28.801Z'
+    }
+  }
+  Customer lyall@forrester.co.za has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 293862,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '0d757809-1f61-420b-a566-ecf8e3fe5615',
+        name: 'Vicky Slack',
+        email: 'hewkins20@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Subscription coming too fast? ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T08:03:08.553Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for hewkins20@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294580,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4bb983e8-e6df-4e05-9ef4-b5b3a2636f59',
+        name: 'Michael Cox',
+        email: 'cox.michael.e@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Re: Thank you for your order',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:16:12.315Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for cox.michael.e@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293208,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '07c5c568-4535-4866-ad95-7f398d2fe0c7',
+        name: 'Kim Orme',
+        email: 'kimmountney@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: I have a question about a product',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-19T10:04:04.114Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for kimmountney@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294580,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4bb983e8-e6df-4e05-9ef4-b5b3a2636f59',
+        name: 'Michael Cox',
+        email: 'cox.michael.e@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Re: Thank you for your order',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:16:12.315Z'
+    }
+  }
+  Customer cox.michael.e@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294475,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '2603a322-d1e7-4882-9017-698f035f36ed',
+        name: 'Yve McNeill',
+        email: 'yveymcneill@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '3fcb87eb-4a88-4013-a949-5024c677cda8',
+        name: 'Karla',
+        email: 'guia.karla.gaspay@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:25:48.833Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for yveymcneill@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 289472,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '98c241b7-8051-4587-9cf9-9a39c6b32bbd',
+        name: 'Caroline Charters',
+        email: 'cazza.c@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has arrived damaged',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-15T08:39:45.831Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for cazza.c@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294581,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'bb71060e-138f-4f89-b454-fea2648d044e',
+        name: 'Tim Richmond ',
+        email: 'witchtree3@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'General Request: Managing my subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:20:00.538Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for witchtree3@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294581,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'bb71060e-138f-4f89-b454-fea2648d044e',
+        name: 'Tim Richmond ',
+        email: 'witchtree3@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'General Request: Managing my subscription',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:20:00.538Z'
+    }
+  }
+  Customer witchtree3@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 292596,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'f9b91679-2f99-461f-b0a3-d45188c8f6eb',
+        name: 'Nicola Hutchins',
+        email: 'nikki.mutch.nm@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-18T17:27:54.439Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for nikki.mutch.nm@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294480,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'afed80c8-01fb-4307-a6af-36f0d7e9ff66',
+        name: 'laura taylor',
+        email: 'laura-lgm-taylor@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Can’t access the site',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:39:33.063Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for laura-lgm-taylor@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 288884,
+      channel: 'CONTACT_FORM',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '9098d03a-bae0-48c2-a6c8-b788553535b8',
+        name: 'Live Chat - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'ab008cb0-dbfa-45ca-80b8-f54384c89a1d',
+        name: 'Suzanne',
+        email: 'suzdeb@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-14T15:51:48.603Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for suzdeb@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293862,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '0d757809-1f61-420b-a566-ecf8e3fe5615',
+        name: 'Vicky Slack',
+        email: 'hewkins20@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Subscription coming too fast? ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T08:03:08.553Z'
+    }
+  }
+  Customer hewkins20@hotmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294258,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '41095174-9696-40c4-aa39-c039d2768f8c',
+        name: 'taylorkima (null)',
+        email: 'taylorkima@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Upcoming Order',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T16:32:38.423Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for taylorkima@aol.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294583,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '023d8db0-1899-40b6-8fa8-c72abca36c14',
+        name: 'Mail - Priority'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '84381db1-b186-41e0-9391-fd90eb389358',
+        name: 'Marjorie Jackson',
+        email: 'marjoriejackson2022@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Save on a powerful spring clean',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:23:19.370Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for marjoriejackson2022@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294583,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '84381db1-b186-41e0-9391-fd90eb389358',
+        name: 'Marjorie Jackson',
+        email: 'marjoriejackson2022@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Re: Save on a powerful spring clean',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:23:19.370Z'
+    }
+  }
+  Customer marjoriejackson2022@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294583,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '84381db1-b186-41e0-9391-fd90eb389358',
+        name: 'Marjorie Jackson',
+        email: 'marjoriejackson2022@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Save on a powerful spring clean',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:23:19.370Z'
+    }
+  }
+  Customer marjoriejackson2022@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294483,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '73696bd0-5799-4cc5-a2bc-27525add766c',
+        name: 'EILEEN GRANT',
+        email: 'eileeng1958@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Return ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:47:55.465Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for eileeng1958@outlook.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294579,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4006c363-6974-4d16-b773-b28ecab0fd77',
+        name: 'Lyall Schwikkard',
+        email: 'lyall@schwikkard.co.za',
+        phone: null,
+        roles: [],
+        user_type: 'Contact',
+        additional_emails: [Array]
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Delivery ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:13:28.801Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for lyall@schwikkard.co.za.
+  dixaData =>  {
+    conversation: {
+      csid: 294485,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '87380db6-ca2f-48d4-807e-8d4f77609b5f',
+        name: 'Aleksandra Werbowa',
+        email: 'werbaaa190900@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:49:30.078Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for werbaaa190900@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294047,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '2f467ff2-d86f-4432-b0c3-166dcf1e5331',
+        name: 'Jane Masters',
+        email: 'j.fm69@virginmedia.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact',
+        additional_emails: [Array]
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'My order',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T11:18:54.277Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for j.fm69@virginmedia.com.
+  dixaData =>  {
+    conversation: {
+      csid: 292594,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'c0df7431-23fd-472f-a4b6-bf2cbee50dbd',
+        name: 'Maria Leese',
+        email: 'maria.leese@yahoo.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-18T17:26:47.275Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for maria.leese@yahoo.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294486,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4536a25d-0442-4e5a-8ec3-fe2ad50fac80',
+        name: 'Mr Anthony W Haines',
+        email: 'qonlatlh@googlemail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation of Subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:51:39.152Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for qonlatlh@googlemail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293808,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '4abf9805-7097-4e53-b10b-5bb6385361b4',
+        name: 'Mitch stenton',
+        email: 'ptstenton@googlemail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order is marked as delivered but I have not received it',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T06:16:35.363Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for ptstenton@googlemail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294584,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'bb21094f-8d9b-482f-befe-25820ebd1ee8',
+        name: 'Nicola Hall',
+        email: 'nicola.hall1968@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Subscription ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:26:06.873Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for nicola.hall1968@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294584,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'bb21094f-8d9b-482f-befe-25820ebd1ee8',
+        name: 'Nicola Hall',
+        email: 'nicola.hall1968@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Subscription ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:26:06.873Z'
+    }
+  }
+  Customer nicola.hall1968@icloud.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 163113,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '023d8db0-1899-40b6-8fa8-c72abca36c14',
+        name: 'Mail - Priority'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '1cfd64e5-7418-44ee-a0a8-840177837214',
+        name: 'pam selcraig',
+        email: 'pammisel@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Don’t Miss Your FREE Christmas Scent',
+      tags: [ [Object], [Object] ],
+      created_at: '2024-11-16T09:16:12.718Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for pammisel@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 290847,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '7025d0c9-bc60-4c52-93cd-0913e54ca556',
+        name: 'Jill Barber',
+        email: 'jillbarber@mac.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T08:17:36.120Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jillbarber@mac.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294487,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '8baade09-3af7-4fe7-816f-c409a4f65e83',
+        name: 'loznema',
+        email: 'loznema@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Re: Cancellation Request: I didn't realise it was a subscription",
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T20:53:49.184Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for loznema@aol.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294490,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4c623aa8-41c9-4859-bad0-b1a0c4cc2b78',
+        name: 'Tracey Ireland',
+        email: 'traceyireland@ymail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Unable to login!',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T20:56:03.044Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for traceyireland@ymail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291804,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '2ba348e3-d478-4b92-b9a2-0547d4a03425',
+        name: 'Cheryl Godfrey',
+        email: 'cherylgodfrey52@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'cancel',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-17T19:28:39.641Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for cherylgodfrey52@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294491,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e459ad9e-79a0-40b1-8d0a-0adc75217da4',
+        name: 'Megan Hulse',
+        email: 'meghulse10@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Something else',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:00:08.785Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for meghulse10@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291857,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '4fdbde74-569f-4820-ae86-4ac7432a5d53',
+        name: 'Warren Hodge',
+        email: 'warrenhodgeld@me.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Managing my subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T20:36:29.628Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for warrenhodgeld@me.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294492,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '714342b0-db35-49c6-9dd1-487ec41d5f62',
+        name: 'Alex Pickford',
+        email: 'a.pickford@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: I need to change my address',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:00:16.321Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for a.pickford@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293925,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '025344a5-19f7-40d4-a2cb-5a89575b4ac2',
+        name: 'Emily Blowfield',
+        email: 'emilyblowfield@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T09:19:08.777Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for emilyblowfield@outlook.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294493,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'd89d5b00-23ed-4f1d-b308-9a724a35a67e',
+        name: 'Lisa Graham',
+        email: 'morganthefaye73@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Last chance to update your payment method',
+      tags: [ [Object] ],
+      created_at: '2025-03-20T21:03:09.046Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for morganthefaye73@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293936,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e00975b0-bcca-4723-8b9b-69e175827a6a',
+        name: 'Kylie johnson ',
+        email: 'kylie.johnson1979@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T09:25:41.087Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for kylie.johnson1979@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294495,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '7ce312e7-d580-4435-ad8c-903b1383b96f',
+        name: 'Julietta Patricolo',
+        email: 'jjpatricolo@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Amount deducted from my account',
+      tags: [ [Object] ],
+      created_at: '2025-03-20T21:06:32.538Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jjpatricolo@aol.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294172,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '22912a58-16f5-4555-bffb-1d0acf942fc5',
+        name: 'June Gate',
+        email: 'junegate1@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T14:55:45.130Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for junegate1@outlook.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294254,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '7a3f80d8-ba8c-4a3e-9062-81b1082756fb',
+        name: 'Claire Worsfold',
+        email: 'claireworsfold@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Claim Request: I'm missing an item from my order",
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T16:30:46.881Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for claireworsfold@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294585,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: 'Purdy & Figg',
+      requester: {
+        id: '281ec8fc-6906-4067-9f6c-bdb210c249e2',
+        name: 'Lauren Ward-Soylemez',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-21T07:30:50.782Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 291920,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '0f637789-9e2b-4189-a0ed-1e604596f5db',
+        name: 'mark west',
+        email: 'west.103@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Refund',
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T22:47:10.348Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for west.103@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 293417,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '89465796-016c-4090-acf8-2b0ab3caed05',
+        name: 'Valerie Bloom',
+        email: 'vblo@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: H03LMA0016092034 ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-19T14:27:15.935Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for vblo@aol.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294502,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e61aa14a-c26a-4e4d-aada-bed3d5576509',
+        name: 'Louisa Hazelwood',
+        email: 'loolahaze43@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order is marked as delivered but I have not received it',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:20:49.592Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for loolahaze43@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294503,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '34a61799-abb3-47ef-ae05-02295d935e05',
+        name: 'Victoria Hope',
+        email: 'vichope56@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Cancellation Request: It's too expensive for me",
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:22:03.590Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for vichope56@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293795,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '875646da-799d-439b-8cdd-468d561edc5c',
+        name: 'Jacqueline Morton',
+        email: 'jacquelineemorton@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: How would you rate this?',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T05:26:12.873Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jacquelineemorton@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291905,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '71166815-0923-4608-bbc8-6a9337425c2e',
+        name: 'Samantha Merrilees',
+        email: 'samanthamerrilees@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Something else',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T22:06:14.413Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for samanthamerrilees@outlook.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293836,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '9761861a-6f1b-4688-8ef5-bce2b7975f9e',
+        name: 'Sue Llewellyn',
+        email: 'sue@ultrasocial.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Managing my subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T07:24:09.946Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for sue@ultrasocial.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294504,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'f8de079f-cbcd-454c-ac6b-33d443135edc',
+        name: 'Angela Dangol',
+        email: 'ngla.dangol@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Re: Thank you for your order',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:22:41.259Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for ngla.dangol@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294507,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '301a3052-e23b-41bb-b382-b6da4563c5a6',
+        name: 'Dawn Daneshmend',
+        email: 'dawndaneshmend@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Need to delay order',
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:30:37.247Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for dawndaneshmend@yahoo.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294587,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'b58c80fd-3817-4a9d-9eb4-011a06a33591',
+        name: 'Karen Smith',
+        email: 'karnie1957@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Order I didn’t request! ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object]
+      ],
+      created_at: '2025-03-21T07:34:49.577Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for karnie1957@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293913,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: 'dd08ef51-b84d-4a72-84a0-5e4b81bdb029',
+        name: 'Pat Gallagher',
+        email: 'ellis3345@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T09:00:13.407Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for ellis3345@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294589,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9424eb8d-4ee9-410f-b16f-666ce464cea7',
+        name: 'service@paypal.co.uk',
+        email: 'service@paypal.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: "There's been a change to Magdalen Csipak's billing agreement",
+      tags: [ [Object] ],
+      created_at: '2025-03-21T07:40:49.316Z'
+    }
+  }
+  Customer service@paypal.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 293808,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '4abf9805-7097-4e53-b10b-5bb6385361b4',
+        name: 'Mitch stenton',
+        email: 'ptstenton@googlemail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order is marked as delivered but I have not received it',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T06:16:35.363Z'
+    }
+  }
+  Customer ptstenton@googlemail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294510,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'f95477d3-d9d3-4b73-818d-f82ca9596e64',
+        name: 'Mrs Cheryl Bellingham',
+        email: 'clbellingham@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has arrived damaged',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:41:42.706Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for clbellingham@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294509,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '3cd561f6-f642-44cf-b264-458ab0f50dde',
+        name: 'Clare Robinson ',
+        email: 'clare120@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Claim Request: I'm missing an item from my order",
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:35:27.469Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for clare120@aol.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291345,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '83e42836-b855-49b4-bab4-929752291561',
+        name: 'Rosie',
+        email: 'rosieanne2@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: One of my items is missing/incorrect/faulty',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T12:56:51.263Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for rosieanne2@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293808,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '4abf9805-7097-4e53-b10b-5bb6385361b4',
+        name: 'Mitch stenton',
+        email: 'ptstenton@googlemail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order is marked as delivered but I have not received it',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T06:16:35.363Z'
+    }
+  }
+  Customer ptstenton@googlemail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 293851,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '2117a973-8c97-4a7a-9ec3-a1f32d675482',
+        name: 'Barbara Romanis',
+        email: 'brw.2011@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation of subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T07:50:22.214Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for brw.2011@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294512,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '5dd5fb3a-d5a1-45de-b8fb-20ee8cbfe551',
+        name: null,
+        email: 'sally_annet@icloud.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Sofas ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:50:33.243Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sally_annet@icloud.com.
+  dixaData =>  {
+    conversation: {
+      csid: 289908,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9192b13b-993c-4673-a1d1-e09961e60670',
+        name: 'Gemma Woolmore',
+        email: 'hi_gemma@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Fw: Order #1141592 confirmed',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-15T19:39:33.020Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for hi_gemma@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294514,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'a49cd976-4539-426c-ab39-c31b01d278a0',
+        name: 'Mo Walker',
+        email: 'mo_walker@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: I have a question about a product',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:58:28.875Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for mo_walker@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294539,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'a49cd976-4539-426c-ab39-c31b01d278a0',
+        name: 'Mo Walker',
+        email: 'mo_walker@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: Other',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T23:09:38.190Z'
+    }
+  }
+  Customer mo_walker@hotmail.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294519,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'a49cd976-4539-426c-ab39-c31b01d278a0',
+        name: 'Mo Walker',
+        email: 'mo_walker@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: Other',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-20T22:14:45.279Z'
+    }
+  }
+  Customer mo_walker@hotmail.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294259,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '881d4969-466a-45c5-925a-6b5001ea0e67',
+        name: 'Sarah Hughes',
+        email: 'sjmorg2002@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Order sent but not ordered ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T16:32:47.469Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sjmorg2002@yahoo.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 293390,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '50cd3c3e-b8d5-4011-9f85-cdd5b3c4a5b8',
+        name: 'Kim Tremain',
+        email: 'kimitremain@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'My delivery/order',
+      tags: [ [Object] ],
+      created_at: '2025-03-19T13:48:33.444Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for kimitremain@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294591,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'be4d7eb2-c140-4b06-bc60-3fcb5da98ca9',
+        name: 'Andrews, Janice',
+        email: 'janice.andrews@mowi.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Automatic reply: How would you rate this?',
+      tags: [ [Object] ],
+      created_at: '2025-03-21T07:47:32.915Z'
+    }
+  }
+  Data stored in Excel.
+  dixaData =>  {
+    conversation: {
+      csid: 294373,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'af9eb7cf-1a2e-4811-becc-1534d9d8d03e',
+        name: 'Mark Stanley',
+        email: 'stan96648@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Re: How would you rate this?',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T18:04:55.413Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for stan96648@gmail.com.
+  Data sent to Retently for janice.andrews@mowi.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294522,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '2f02f8f4-924b-4f72-8b68-03057c0eb665',
+        name: 'Jack Withinshaw',
+        email: 'jwithinshaw@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: I need to change my address',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:22:13.518Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jwithinshaw@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294523,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '04fdc274-7882-416d-800e-24c16a183156',
+        name: 'Jane Hadfield',
+        email: 'jane.hadfield12@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order is marked as delivered but I have not received it',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:32:45.528Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jane.hadfield12@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294524,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '03441efd-81f8-4d86-93b4-b3ad7b72055c',
+        name: 'Zoe Greenway',
+        email: 'zoe.greenway_77@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancelling my subscription ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:34:02.010Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for zoe.greenway_77@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294521,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '00e6c552-18e3-44c4-8b63-e17513743536',
+        name: 'Linda Townend',
+        email: 'lindatownend40@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Upcoming Order',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:20:55.048Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for lindatownend40@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294525,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'fb15214c-b19d-48f8-a205-74b715547b8c',
+        name: 'nikkibarlow21@aol.com',
+        email: 'nikkibarlow21@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: How would you rate this?',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:36:52.573Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for nikkibarlow21@aol.com.
+  dixaData =>  {
+    conversation: {
+      csid: 292605,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '884ee0a2-010d-43e5-8fed-15682585ce39',
+        name: 'Chris',
+        email: 'chrisnicholson86@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Managing my subscription',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-18T17:32:09.802Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for chrisnicholson86@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294592,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '49cb69fd-ba91-421a-87d7-431aa676ba48',
+        name: 'leanne autton',
+        email: 'leanneautton@live.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'My subscription ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:51:33.034Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for leanneautton@live.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 293137,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '46f9d430-55e0-4e57-8b05-896d0341628e',
+        name: 'Hannah Teresa Perrott',
+        email: 'hannahtperrott92@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Subscription',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-19T08:41:07.224Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for hannahtperrott92@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294527,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'fb15214c-b19d-48f8-a205-74b715547b8c',
+        name: 'nikkibarlow21@aol.com',
+        email: 'nikkibarlow21@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Where is my order???  2767908',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:42:03.864Z'
+    }
+  }
+  Customer nikkibarlow21@aol.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294592,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '49cb69fd-ba91-421a-87d7-431aa676ba48',
+        name: 'leanne autton',
+        email: 'leanneautton@live.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'My subscription ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:51:33.034Z'
+    }
+  }
+  Customer leanneautton@live.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294537,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'a33747ce-15a4-4a24-921f-812cfaf1b094',
+        name: 'Rita Morrow',
+        email: 'ritamorrow59@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Return',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T23:07:41.403Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for ritamorrow59@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294535,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '90efbd2a-19da-4a07-92d5-16bdaf073198',
+        name: 'Susan Gittins',
+        email: 'suegittins123@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Missing Order',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T23:04:03.264Z'
+    }
+  }
+  Data stored in Excel.
+  dixaData =>  {
+    conversation: {
+      csid: 294540,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'd9b9f8f7-5e46-4059-9408-ebf3a8f01377',
+        name: 'Lauren Maguire',
+        email: 'lauren_maguire@live.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Delivery not received ',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T23:28:08.124Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for lauren_maguire@live.co.uk.
+  Data sent to Retently for suegittins123@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294531,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '45eb6013-b877-4e6d-aaa3-77def687aa53',
+        name: 'Diane Harper',
+        email: 'dianeharper73@btinternet.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Refund Chase Request',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T22:50:47.500Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for dianeharper73@btinternet.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294552,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '2a8e1843-e414-46f2-b075-292ab446667b',
+        name: 'Wendy Kelly',
+        email: 'signfashion@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Claim Request: I'm missing an item from my order",
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T00:10:36.903Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for signfashion@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294554,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'f6abe752-e87d-48a2-859b-2dbf67d6baaf',
+        name: 'A Muxworthy',
+        email: 'peachy272@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: I just want to order as and when I want',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T00:32:02.885Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for peachy272@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294543,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '85cbfd56-7e86-45ac-8b3e-3ed71e27aa4f',
+        name: 'Deirdre Haddock',
+        email: 'deirdre.haddock@haddockfamily.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T23:56:09.938Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for deirdre.haddock@haddockfamily.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294555,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '5481ee5d-b0be-460b-bbd9-e0f00d535822',
+        name: 'Shelina ',
+        email: 'sbegum1301@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Managing my subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T00:56:51.307Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for sbegum1301@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294568,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'ea8b9c62-52ac-4d3d-9437-81f80c229cc2',
+        name: 'Mr Ben Robson Hull',
+        email: 'iceland_45@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Managing my subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T05:41:56.031Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for iceland_45@outlook.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294570,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '584845b3-a988-41dc-a4bd-6b5aaf642560',
+        name: 'Sue Barrett',
+        email: 'sue@jmgcreativeprint.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T05:46:48.826Z'
+    }
+  }
+  Data stored in Excel.
+  dixaData =>  {
+    conversation: {
+      csid: 294593,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9424eb8d-4ee9-410f-b16f-666ce464cea7',
+        name: 'service@paypal.co.uk',
+        email: 'service@paypal.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: "There's been a change to Kathy Fitzpatrick's billing agreement",
+      tags: [ [Object] ],
+      created_at: '2025-03-21T07:54:22.487Z'
+    }
+  }
+  Customer service@paypal.co.uk has interacted before. Skipping.
+  Data sent to Retently for sue@jmgcreativeprint.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294558,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'eb921285-9f5a-44c5-aa5f-e3227a9ffacd',
+        name: 'Dee Minnikin',
+        email: 'dee.sheehan2@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Something else',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T01:41:39.968Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for dee.sheehan2@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 292654,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '7d1082c8-a32e-4898-98b6-ccd621f0a146',
+        name: 'Hannah Cox',
+        email: 'hannahcox005@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Claim Request: I'm missing an item from my order",
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-18T18:28:50.689Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for hannahcox005@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294579,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4006c363-6974-4d16-b773-b28ecab0fd77',
+        name: 'Lyall Schwikkard',
+        email: 'lyall@schwikkard.co.za',
+        phone: null,
+        roles: [],
+        user_type: 'Contact',
+        additional_emails: [Array]
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Delivery ',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T07:13:28.801Z'
+    }
+  }
+  Customer lyall@schwikkard.co.za has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 290718,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '576f7f4e-c5e7-4e2a-9625-5bb906db0fa0',
+        name: 'Natasha Spencer',
+        email: 'natasha.spencer@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Fw: Help 😊 FAO Born Gervie',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-16T21:47:37.950Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for natasha.spencer@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294119,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'b45c683b-a47a-478d-b784-af50e09b57f0',
+        name: 'Lorna Pring',
+        email: 'lornapring@btinternet.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: One of my items is missing/incorrect/faulty',
+      tags: [ [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T13:23:26.277Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for lornapring@btinternet.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293936,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e00975b0-bcca-4723-8b9b-69e175827a6a',
+        name: 'Kylie johnson ',
+        email: 'kylie.johnson1979@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T09:25:41.087Z'
+    }
+  }
+  Customer kylie.johnson1979@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294069,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '3ff85c56-a77d-43c2-869a-fc3dd540ca62',
+        name: 'shelley booth',
+        email: 'boothshelley@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T11:59:08.275Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for boothshelley@yahoo.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 293807,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9fb7f775-92ce-43b8-ace2-ba6422abf49a',
+        name: 'Claire and Tom Storey',
+        email: 'ctjstorey@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Forgotten password - cannot login to my account',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T06:12:14.770Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for ctjstorey@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294574,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'de0d4e66-3e97-43e6-b1cd-d9c50519157b',
+        name: 'Wallace',
+        email: 'louisew0873@aol.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancellation Request: Other',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-21T06:38:21.420Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for louisew0873@aol.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294575,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'c53d8e84-145b-491c-90fb-7cea40fef9f8',
+        name: 'Caroline Luke',
+        email: 'caro.luke30@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Returning empty glass bottles',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-21T06:45:03.273Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for caro.luke30@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294582,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '195244e4-ecc3-452f-bf64-05a7d0b98feb',
+        name: 'Suzanne Shaw',
+        email: 'suzannecrowshaw@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:20:29.280Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for suzannecrowshaw@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294586,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '92dcbff2-256d-4a33-a14e-96fff652484f',
+        name: 'Jasmin Brackenfield',
+        email: 'jasmin@gmx.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: I have a question about a product',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-21T07:31:23.686Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jasmin@gmx.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294573,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'aa6ca586-eb38-4a97-9a02-ab1de6dcf74c',
+        name: 'Laura Jennings ',
+        email: 'laurajjennings@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: One of my products is faulty',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T06:38:14.989Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for laurajjennings@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294588,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e8aeb29e-8a26-4eb6-8487-b49c1877bd12',
+        name: 'Gemma Stirland',
+        email: 'gemstirland@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order has not arrived',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:36:14.480Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for gemstirland@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294594,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'c8588f64-69be-40ad-a1b9-85a28c303fd0',
+        name: 'Kathy Fitzpatrick',
+        email: 'k.fitz1328@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Cancel subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:55:37.276Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for k.fitz1328@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294595,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '47eeb8fa-5c44-4c89-94da-80e573b4fff9',
+        name: 'Mail - Urgent'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '093e344b-c188-4584-a43e-c501287b4eb1',
+        name: 'Becs Andrews',
+        email: 'reandrews30@googlemail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Login',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:57:57.029Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for reandrews30@googlemail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291477,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '270af585-17bb-4f6d-8a7d-b31b230363e7',
+        name: 'Angela Eley',
+        email: 'angela.eley10@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Subscription',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-17T15:14:59.330Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for angela.eley10@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294590,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'e438d73e-e9c6-4a82-86bc-a9053c2142be',
+        name: 'Maureen Halliwell',
+        email: 'mohalliwell1965@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Thank you for your order',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T07:42:01.177Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for mohalliwell1965@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294267,
+      channel: 'CONTACT_FORM',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '9098d03a-bae0-48c2-a6c8-b788553535b8',
+        name: 'Live Chat - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '9a4bdc86-7e9b-48b8-a1fc-754f5f890188',
+        name: 'Alison Slevin',
+        email: 'alisonslevin@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'bec6834d-f44f-4a37-a200-865b2fb9787d',
+        name: 'Joneth',
+        email: 'joneth@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T16:36:41.808Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for alisonslevin@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294597,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'fd7bce95-2c84-48e7-8cf6-b68b9fc2ae85',
+        name: 'Aliya Vigor-Robertson',
+        email: 'aliya@journeyhr.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Automatic reply: How would you rate this?',
+      tags: [ [Object] ],
+      created_at: '2025-03-21T08:02:40.124Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for aliya@journeyhr.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291804,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '2ba348e3-d478-4b92-b9a2-0547d4a03425',
+        name: 'Cheryl Godfrey',
+        email: 'cherylgodfrey52@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'cancel',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-17T19:28:39.641Z'
+    }
+  }
+  Customer cherylgodfrey52@gmail.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294497,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '35b11d9c-8d4e-463c-b297-9086986a0418',
+        name: 'Krystyna Makowiecka',
+        email: 'kmakowiecka@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Order 2873076',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T21:16:45.911Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for kmakowiecka@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294543,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '85cbfd56-7e86-45ac-8b3e-3ed71e27aa4f',
+        name: 'Deirdre Haddock',
+        email: 'deirdre.haddock@haddockfamily.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T23:56:09.938Z'
+    }
+  }
+  Customer deirdre.haddock@haddockfamily.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 291358,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '0e2d7f04-f0a0-4e49-af03-5e9c9c6a2520',
+        name: 'Katie Stead',
+        email: 'katestead89@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'bec6834d-f44f-4a37-a200-865b2fb9787d',
+        name: 'Joneth',
+        email: 'joneth@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: How would you rate this?',
+      tags: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T13:09:48.540Z'
+    }
+  }
+  Data stored in Excel.
+  Data sent to Retently for katestead89@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293950,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'fdc67534-5774-4e53-aa59-21b0a62de25e',
+        name: 'Sally Buckman',
+        email: 'sally.buckman@live.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: I need to change my address',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-20T09:40:49.830Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sally.buckman@live.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 292057,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'a7d08d4c-7477-4fc8-9972-9d8c0e958f7c',
+        name: 'Kate McGuigan (ANSTRUTHER MEDICAL PRACTICE)',
+        email: 'catherine.smith3@nhs.scot',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Re: Thank you for your order',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-18T09:17:25.053Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for catherine.smith3@nhs.scot.
+  dixaData =>  {
+    conversation: {
+      csid: 294353,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '023d8db0-1899-40b6-8fa8-c72abca36c14',
+        name: 'Mail - Priority'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'e37c39ff-ee60-4f0b-8ab8-ecb6a6f78bfd',
+        name: 'sharon willerton',
+        email: 'sharon--01@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '519242f6-e6cd-4fba-9944-bd1a4919342e',
+        name: 'Jesanie',
+        email: 'jesanie@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T17:47:07.712Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sharon--01@hotmail.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294353,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '023d8db0-1899-40b6-8fa8-c72abca36c14',
+        name: 'Mail - Priority'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'e37c39ff-ee60-4f0b-8ab8-ecb6a6f78bfd',
+        name: 'sharon willerton',
+        email: 'sharon--01@hotmail.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '519242f6-e6cd-4fba-9944-bd1a4919342e',
+        name: 'Jesanie',
+        email: 'jesanie@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-20T17:47:07.712Z'
+    }
+  }
+  Customer sharon--01@hotmail.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294652,
+      channel: 'MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: null,
+      requester: {
+        id: '893ae8eb-ec8b-4715-9ecf-06bea2db2cfb',
+        name: 'Jane Squires',
+        email: 'janesquires@yahoo.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: null,
+      tags: [ [Object] ],
+      created_at: '2025-03-21T09:13:09.646Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for janesquires@yahoo.com.
+  dixaData =>  {
+    conversation: {
+      csid: 293047,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'b44a3f46-4f9a-499e-9b80-61a53e93b7e9',
+        name: 'Kiran Patel',
+        email: 'kira23a@yahoo.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Cancellation Request: It's too expensive for me",
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-19T06:09:52.024Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for kira23a@yahoo.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294650,
+      channel: 'FACEBOOK_MESSENGER',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: 'c031f572-30fb-4f30-a27b-e96273533c12', name: 'Social' },
+      contact_point: null,
+      requester: {
+        id: 'cdcc6c52-751b-483b-92dc-559a4fce1502',
+        name: 'Liz - the Mummy who makes The Fudge',
+        email: null,
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: null,
+      tags: [ [Object] ],
+      created_at: '2025-03-21T09:11:52.228Z'
+    }
+  }
+  Customer email not found in Dixa data.
+  dixaData =>  {
+    conversation: {
+      csid: 294654,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '7c8684e7-18df-488f-8f23-7fa360fa85b7',
+        name: 'Rachel Lubin',
+        email: 'rachel@iprlondon.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Automatic reply: Your Purdy&amp;Figg order has shipped!',
+      tags: [ [Object] ],
+      created_at: '2025-03-21T09:13:17.682Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for rachel@iprlondon.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294648,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'a6c6d954-b2cc-4046-8c0a-dda5fcb75e98',
+        name: 'Eileen Mc cauley',
+        email: 'eileenbarr4@hotmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact',
+        additional_emails: [Array]
+      },
+      assignee: {
+        id: 'bec6834d-f44f-4a37-a200-865b2fb9787d',
+        name: 'Joneth',
+        email: 'joneth@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Details ',
+      tags: [ [Object], [Object] ],
+      created_at: '2025-03-21T09:08:11.456Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for eileenbarr4@hotmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294653,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '1c1522fd-f4bf-4a38-8702-328997d4e541',
+        name: 'Kirsty Tyler',
+        email: 'kirstyjtyler@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Re: How would you rate this?',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T09:13:16.177Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for kirstyjtyler@yahoo.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294653,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '1c1522fd-f4bf-4a38-8702-328997d4e541',
+        name: 'Kirsty Tyler',
+        email: 'kirstyjtyler@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: 'Re: How would you rate this?',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T09:13:16.177Z'
+    }
+  }
+  Customer kirstyjtyler@yahoo.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294651,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'ae3ab3b7-c5b1-4273-b312-b85eb8c3487f',
+        name: 'Scilla Dyke',
+        email: 'scilladyke@btopenworld.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a2b40a3a-ade3-4a4e-b52a-1bb7aa40cae8',
+        name: 'John',
+        email: 'john.perez@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Fwd: Thank you for your order',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-21T09:12:54.095Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for scilladyke@btopenworld.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294653,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: { id: '7896def0-7d76-48fa-9d00-fb37d37651b1', name: 'DG Queue' },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '1c1522fd-f4bf-4a38-8702-328997d4e541',
+        name: 'Kirsty Tyler',
+        email: 'kirstyjtyler@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: How would you rate this?',
+      tags: [
+        [Object], [Object],
+        [Object], [Object],
+        [Object], [Object],
+        [Object]
+      ],
+      created_at: '2025-03-21T09:13:16.177Z'
+    }
+  }
+  Customer kirstyjtyler@yahoo.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294657,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9424eb8d-4ee9-410f-b16f-666ce464cea7',
+        name: 'service@paypal.co.uk',
+        email: 'service@paypal.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: "There's been a change to Catherine Forbes's billing agreement",
+      tags: [ [Object] ],
+      created_at: '2025-03-21T09:15:18.355Z'
+    }
+  }
+  Customer service@paypal.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294656,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '90dd0860-921f-4da3-87a4-93acda368ab7',
+        name: 'Sarah Watmuff',
+        email: 'sarahwatmuff@yahoo.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'bec6834d-f44f-4a37-a200-865b2fb9787d',
+        name: 'Joneth',
+        email: 'joneth@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Cancel subscription',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T09:14:21.380Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sarahwatmuff@yahoo.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 292879,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'ff294308-4632-4238-916f-86eccaa8ab84',
+        name: 'Mail - Claim (Delivery) '
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'db2cbb98-1d09-46fd-b296-b2a6309ad888',
+        name: 'Alison Owen',
+        email: 'alison.owen64@gmail.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: 'a6e129b7-8981-4f9a-9067-dd4852d24688',
+        name: 'Diane',
+        email: 'dyan@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Claim Request: My order is marked as delivered but I have not received it',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-18T21:40:55.652Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for alison.owen64@gmail.com.
+  dixaData =>  {
+    conversation: {
+      csid: 294658,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: 'ae8fdc94-8805-4512-be40-555293a65938',
+        name: 'andrea panak',
+        email: 'andreapanak@yahoo.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Re: Your subscription has been cancelled',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T09:15:29.253Z'
+    }
+  }
+  Customer andreapanak@yahoo.com has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294659,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: null,
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '9424eb8d-4ee9-410f-b16f-666ce464cea7',
+        name: 'service@paypal.co.uk',
+        email: 'service@paypal.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: null,
+      subject: "There's been a change to Wibeke Pemberton's billing agreement",
+      tags: [ [Object] ],
+      created_at: '2025-03-21T09:17:02.748Z'
+    }
+  }
+  Customer service@paypal.co.uk has interacted before. Skipping.
+  dixaData =>  {
+    conversation: {
+      csid: 294655,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'b14477f9-1e10-4874-83cd-037e1fb8d39a',
+        name: 'Mail - Claim (Quality Issue)'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: 'e43ac5d9-9d8b-45ba-80c1-ea59feed9862',
+        name: 'Samantha Taylor',
+        email: 'sammie@taylorhouse.co.uk',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '65bbe085-b2ec-42cc-87d4-9dd8eed47e85',
+        name: 'Born',
+        email: 'born.clet@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: "Claim Request: I'm missing an item from my order",
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-21T09:13:55.280Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for sammie@taylorhouse.co.uk.
+  dixaData =>  {
+    conversation: {
+      csid: 294660,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: '0a137541-b89e-44aa-951a-4b26a633404b',
+        name: 'Mail - General'
+      },
+      contact_point: 'purdy-and-figg-info@email.dixa.io',
+      requester: {
+        id: '4c0db15a-965f-4581-914b-7bd32bc24da9',
+        name: 'Julie Toll',
+        email: 'jatoll@btinternet.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '1c6c9f8e-13af-4bf4-98c9-a06fa9f0256c',
+        name: 'Chris',
+        email: 'christopher.santiago@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'Order still not received ',
+      tags: [ [Object], [Object], [Object] ],
+      created_at: '2025-03-21T09:17:15.004Z'
+    }
+  }
+  Data stored in Excel.
+  Sample skipped for jatoll@btinternet.com.
+  dixaData =>  {
+    conversation: {
+      csid: 291905,
+      channel: 'EMAIL',
+      status: 'CLOSED',
+      direction: 'INBOUND',
+      queue: {
+        id: 'fd91170b-864e-44ac-bed3-489d92d67038',
+        name: 'Mail - Cancellation Request'
+      },
+      contact_point: 'purdy-and-figg-help@email.dixa.io',
+      requester: {
+        id: '71166815-0923-4608-bbc8-6a9337425c2e',
+        name: 'Samantha Merrilees',
+        email: 'samanthamerrilees@outlook.com',
+        phone: null,
+        roles: [],
+        user_type: 'Contact'
+      },
+      assignee: {
+        id: '38466155-5194-4096-89f9-e5fee5e8eb7a',
+        name: 'Nica',
+        email: 'nica.pena@purdyandfigg.com',
+        phone: null,
+        roles: [],
+        user_type: 'Member'
+      },
+      subject: 'General Request: Something else',
+      tags: [ [Object], [Object], [Object], [Object] ],
+      created_at: '2025-03-17T22:06:14.413Z'
+    }
+  }
+  Customer samanthamerrilees@outlook.com has interacted before. Skipping.
+  
+  
