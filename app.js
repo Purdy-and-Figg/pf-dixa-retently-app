@@ -6,8 +6,13 @@ const config = require('./config');
 const ExcelJS = require('exceljs');
 const base64 = require('base-64');
 const bodyParser = require('body-parser');
-const { saveCustomerInteraction, getAllCustomerInteractions } = require('./databaseOperations');
-const pool = require('./databaseConfig'); // Import the database pool
+const {
+  saveCustomerInteraction,
+  getCustomerInteractions,
+  getInteractionsForRetently,
+  markRetentlySent,
+} = require('./databaseOperations');
+const pool = require('./databaseConfig');
 
 const expectedWebhookUser = process.env.WEBHOOK_USERNAME;
 const expectedWebhookPassword = process.env.WEBHOOK_PASSWORD;
@@ -51,7 +56,7 @@ async function checkExistingCustomer(customerId, email) {
   const client = await pool.connect();
   try {
     const result = await client.query(
-      'SELECT EXISTS(SELECT 1 FROM customer_interactions WHERE customer_id = $1 )',
+      "SELECT EXISTS(SELECT 1 FROM customer_interactions WHERE customer_id = $1 )",
       [email]
     );
     return result.rows[0].exists;
@@ -106,6 +111,8 @@ async function initializeDatabase() {
           interaction_type VARCHAR(255) NOT NULL,
           interaction_data JSONB,
           created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+          retently_sent BOOLEAN DEFAULT FALSE,
+          retently_scheduled_at TIMESTAMP WITH TIME ZONE,
           UNIQUE (customer_id)
         );
       `);
@@ -121,12 +128,37 @@ async function initializeDatabase() {
   }
 }
 
+async function processRetentlyQueue() {
+  try {
+    const interactionsToSend = await getInteractionsForRetently();
+
+    for (const interaction of interactionsToSend) {
+      const retentlyData = {
+        email: interaction.interaction_data?.requester?.email,
+        first_name: interaction.interaction_data?.requester?.name,
+        last_name: '',
+      };
+
+      try {
+        await axios.post(config.RETENTLY_WEBHOOK_URL, retentlyData);
+        console.log(`Data sent to Retently for ${interaction.customer_id}.`);
+        await markRetentlySent(interaction.id); // Mark as sent in the database
+      } catch (error) {
+        console.error(`Error sending data to Retently for ${interaction.customer_id}:`, error);
+        // Consider logging the error or implementing a retry mechanism
+      }
+    }
+  } catch (error) {
+    console.error('Error processing Retently queue:', error);
+  }
+}
+
 app.post('/dixa-webhook', bodyParser.json(), authenticateBasicAuth, async (req, res) => {
   try {
     const dixaData = req.body.data;
     console.log('dixaData => ', dixaData);
     const customerEmail = dixaData.conversation.requester?.email;
-    const customerId = dixaData.customer?.id || customerEmail; // Use customer.id if available, otherwise email
+    const customerId = dixaData.customer?.id || customerEmail;
 
     if (!customerEmail) {
       console.error('Customer email not found in Dixa data.');
@@ -154,19 +186,15 @@ app.post('/dixa-webhook', bodyParser.json(), authenticateBasicAuth, async (req, 
     // Store data in DB
     await storeDataInDB(customerId, dixaData.conversation);
 
-    if (Math.random() <= 0.1) {
-      const retentlyData = {
-        email: customerEmail,
-        first_name: dixaData.customer?.name,
-        last_name: "",
-      };
-      await axios.post(config.RETENTLY_WEBHOOK_URL, retentlyData);
-      console.log(`Data sent to Retently for ${customerEmail}.`);
-      res.status(200).send('Data sent to Retently.');
-    } else {
-      console.log(`Sample skipped for ${customerEmail}.`);
-      res.status(200).send('Sample skipped.');
-    }
+    // Schedule Retently sending
+    await pool.query(
+      `UPDATE customer_interactions SET retently_scheduled_at = $1 WHERE customer_id = $2`,
+      [new Date(Date.now() + 12 * 60 * 60 * 1000), customerId]
+    );
+
+    console.log(`Retently sending scheduled for ${customerId} in 12 hours.`);
+
+    res.status(200).send('Webhook processed. Retently sending scheduled.');
   } catch (error) {
     console.error('Error processing Dixa webhook:', error);
     res.status(500).send('Internal server error.');
@@ -174,13 +202,15 @@ app.post('/dixa-webhook', bodyParser.json(), authenticateBasicAuth, async (req, 
 });
 
 app.get('/dixa-test', async (req, res) => {
-  console.log("connected");
+  console.log('connected');
 
   try {
-    // const { getCustomerInteractions } = require('./databaseOperations'); // Assuming this function exists
+    const { getCustomerInteractions } = require('./databaseOperations');
+    const page = parseInt(req.query.page, 10) || 1;
+    const pageSize = 10;
 
-    // Fetch all interactions (you might want to modify this to filter/paginate)
-    const allInteractions = await getAllCustomerInteractions(); // Or a function to get all
+    const { interactions, totalCount } = await getCustomerInteractions(page, pageSize);
+    const totalPages = Math.ceil(totalCount / pageSize);
 
     let htmlTable = `
       <!DOCTYPE html>
@@ -190,7 +220,8 @@ app.get('/dixa-test', async (req, res) => {
         <style>
           table {
             border-collapse: collapse;
-            width: 100%;
+            width: 80%;
+            margin: 20px auto;
           }
           th, td {
             border: 1px solid black;
@@ -199,6 +230,25 @@ app.get('/dixa-test', async (req, res) => {
           }
           th {
             background-color: #f2f2f2;
+          }
+          .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+          }
+          .pagination a {
+            padding: 8px 16px;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            background-color: white;
+            color: black;
+          }
+          .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+          }
+          .pagination a:hover:not(.active) {
+            background-color: #ddd;
           }
         </style>
       </head>
@@ -212,13 +262,15 @@ app.get('/dixa-test', async (req, res) => {
               <th>Interaction Type</th>
               <th>Interaction Data</th>
               <th>Created At</th>
+              <th>Retently Sent</th>
+              <th>Retently Scheduled At</th>
             </tr>
           </thead>
           <tbody>
     `;
 
-    if (allInteractions && allInteractions.length > 0) {
-      allInteractions.forEach(interaction => {
+    if (interactions && interactions.length > 0) {
+      interactions.forEach((interaction) => {
         htmlTable += `
           <tr>
             <td>${interaction.id}</td>
@@ -226,13 +278,15 @@ app.get('/dixa-test', async (req, res) => {
             <td>${interaction.interaction_type}</td>
             <td>${JSON.stringify(interaction.interaction_data)}</td>
             <td>${interaction.created_at}</td>
+            <td>${interaction.retently_sent}</td>
+            <td>${interaction.retently_scheduled_at}</td>
           </tr>
         `;
       });
     } else {
       htmlTable += `
           <tr>
-            <td colspan="5">No interactions found.</td>
+            <td colspan="7">No interactions found.</td>
           </tr>
         `;
     }
@@ -240,20 +294,31 @@ app.get('/dixa-test', async (req, res) => {
     htmlTable += `
           </tbody>
         </table>
+        <div class="pagination">
+    `;
+
+    for (let i = 1; i <= totalPages; i++) {
+      htmlTable += `<a href="?page=${i}" ${page === i ? 'class="active"' : ''}>${i}</a>`;
+    }
+
+    htmlTable += `
+        </div>
       </body>
       </html>
     `;
 
     res.send(htmlTable);
-
   } catch (error) {
-    console.error("Error fetching and displaying data:", error);
-    res.status(500).send("Error retrieving data.");
+    console.error('Error fetching and displaying data:', error);
+    res.status(500).send('Error retrieving data.');
   }
 });
 
 async function startServer() {
   await initializeDatabase(); // Initialize the database on server start
+
+  // Schedule the Retently processing job (e.g., every minute for testing)
+  setInterval(processRetentlyQueue, 60 * 1000); // 1 minute (for testing)
 
   app.listen(config.PORT, () => {
     console.log(`Middleware listening on port ${config.PORT}`);
