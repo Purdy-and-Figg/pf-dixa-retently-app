@@ -1,4 +1,3 @@
-// databaseOperations.js
 const pool = require('./databaseConfig');
 
 async function saveCustomerInteraction(customerId, interactionType, interactionData) {
@@ -83,10 +82,15 @@ async function updateCustomerInteraction(id, updates) {
 async function getInteractionsForRetently() {
   try {
     const twelveHoursAgo = new Date(Date.now() - 12 * 60 * 60 * 1000);
-    const result = await pool.query(
-      `SELECT * FROM customer_interactions WHERE retently_sent = FALSE AND retently_scheduled_at <= $1`,
-      [twelveHoursAgo]
-    );
+    // const result = await pool.query(
+    //   `SELECT * FROM customer_interactions WHERE retently_sent = FALSE AND retently_scheduled_at <= $1::timestamptz`,
+    //   [twelveHoursAgo]
+    // );
+    const twelveHoursAgoIST = getISTTimestamp(twelveHoursAgo);
+    const query = `SELECT * FROM customer_interactions WHERE retently_sent = FALSE AND retently_scheduled_at <= $1::timestamptz`;
+    console.log('twelveHoursAgo => ', twelveHoursAgo, twelveHoursAgoIST)
+    const values = [twelveHoursAgoIST];
+    const result = await pool.query(query, values);
     return result.rows;
   } catch (error) {
     console.error('Error fetching interactions for Retently:', error);
@@ -96,14 +100,39 @@ async function getInteractionsForRetently() {
 
 async function markRetentlySent(id) {
   try {
-    await pool.query(
-      `UPDATE customer_interactions SET retently_sent = TRUE WHERE id = $1`,
-      [id]
-    );
+    await pool.query(`UPDATE customer_interactions SET retently_sent = TRUE WHERE id = $1`, [id]);
   } catch (error) {
     console.error('Error marking Retently sent:', error);
     throw error;
   }
+}
+
+async function checkExistingCustomer(customerId, email) {
+  const client = await pool.connect();
+  try {
+    const result = await client.query(
+      "SELECT EXISTS(SELECT 1 FROM customer_interactions WHERE customer_id = $1 OR (customer_id IS NULL AND interaction_data->>'requester'->>'email' = $2::text))",
+      [customerId, email]
+    );
+    return result.rows[0].exists;
+  } catch (error) {
+    console.error('Error checking existing customer:', error);
+    return true; // Assume exists to avoid processing if there's an error
+  } finally {
+    client.release();
+  }
+}
+
+function getISTTimestamp(date) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-indexed
+  const day = String(date.getDate()).padStart(2, '0');
+  const hours = String(date.getHours()).padStart(2, '0');
+  const minutes = String(date.getMinutes()).padStart(2, '0');
+  const seconds = String(date.getSeconds()).padStart(2, '0');
+  const milliseconds = String(date.getMilliseconds()).padStart(3, '0');
+
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}+05:30`;
 }
 
 module.exports = {
@@ -113,4 +142,5 @@ module.exports = {
   updateCustomerInteraction,
   getInteractionsForRetently,
   markRetentlySent,
+  checkExistingCustomer,
 };
