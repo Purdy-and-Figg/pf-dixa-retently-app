@@ -3,7 +3,7 @@ const { getCustomerInteractions } = require('../databaseOperations'); // Adjust 
 
 exports.getDixaCustomerInteractionsData = async (req, res) => {
   try {
-    const page = parseInt(req.query.page, 10) || 1;
+    let page = parseInt(req.query.page, 10) || 1;
     const pageSize = 10;
     const { interactions, totalCount } = await getCustomerInteractions(page, pageSize);
     const totalPages = Math.ceil(totalCount / pageSize);
