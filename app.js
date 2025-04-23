@@ -6,6 +6,8 @@ const config = require('./config');
 const ExcelJS = require('exceljs');
 const base64 = require('base-64');
 const bodyParser = require('body-parser');
+const session = require('express-session'); // For session management
+const customerIntractionsRoute = require('./customerInteractions/customerIntractionsRoute');
 const {
   saveCustomerInteraction,
   getCustomerInteractions,
@@ -18,79 +20,61 @@ const expectedWebhookUser = process.env.WEBHOOK_USERNAME;
 const expectedWebhookPassword = process.env.WEBHOOK_PASSWORD;
 
 const app = express();
+
+app.use(bodyParser.urlencoded({ extended: true })); // For parsing form data
 app.use(express.json());
+app.use(express.static('public')); // To serve static files like login.html
+app.use(
+  session({
+    secret: 'your-secret-key', // Replace with a strong, random key
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false }, // Set to `true` in production if using HTTPS
+  })
+);
 
-// Function to store data in Excel (remains as is)
-async function storeDataInExcel(data) {
-  try {
-    const workbook = new ExcelJS.Workbook();
-    let worksheet;
+const users = {
+  // Replace with a database in a real application
+  username: 'admin',
+  password: 'password123',
+};
 
-    try {
-      await workbook.xlsx.readFile('dixa_data.xlsx');
-      worksheet = workbook.getWorksheet(1);
-    } catch (error) {
-      worksheet = workbook.addWorksheet('Dixa Data');
-      worksheet.addRow(Object.keys(data));
-    }
+// Route to display the login form
+app.get('/login', (req, res) => {
+  res.sendFile(__dirname + '/public/login.html');
+});
 
-    worksheet.addRow(Object.values(data));
-    await workbook.xlsx.writeFile('dixa_data.xlsx');
-    console.log('Data stored in Excel.');
-  } catch (error) {
-    console.error('Error storing data in Excel:', error);
+// Route to handle login submission
+app.post('/login', (req, res) => {
+  const { username, password } = req.body;
+
+  if (users.username === username  && users.password === password) {
+    req.session.loggedIn = true;
+    req.session.username = username;
+    res.redirect('/dixa-test'); // Redirect to your data view
+  } else {
+    res.send('Login failed. <a href="/login">Try again</a>');
   }
-}
+});
 
-async function storeDataInDB(customerId, interactionData) {
-  const interactionType = 'webhook_event';
-  try {
-    const newInteraction = await saveCustomerInteraction(customerId, interactionType, interactionData);
-    console.log('Webhook data saved to PostgreSQL:', newInteraction);
-  } catch (error) {
-    console.error('Error saving webhook data:', error);
-  }
-}
+app.get('/logout', (req, res) => {
+  req.session.destroy((err) => {
+      if (err) {
+          console.error('Error destroying session:', err);
+          // Handle the error appropriately (e.g., display an error page)
+          res.status(500).send('Error logging out.');
+      } else {
+          res.redirect('/login'); // Redirect to the login page
+      }
+  });
+});
 
-async function checkExistingCustomer(customerId, email) {
-  const client = await pool.connect();
-  try {
-    const result = await client.query(
-      "SELECT EXISTS(SELECT 1 FROM customer_interactions WHERE customer_id = $1 )",
-      [email]
-    );
-    return result.rows[0].exists;
-  } catch (error) {
-    console.error('Error checking existing customer:', error);
-    return true; // Assume exists to avoid processing if there's an error
-  } finally {
-    client.release();
-  }
-}
-
-function authenticateBasicAuth(req, res, next) {
-  const authHeader = req.headers.authorization;
-
-  if (!authHeader || !authHeader.startsWith('Basic ')) {
-    console.warn('Webhook received without Basic Auth header.');
-    return res.status(401).send('Unauthorized: Missing or invalid Basic Auth header');
-  }
-
-  const base64Credentials = authHeader.split(' ')[1];
-  try {
-    const decodedCredentials = base64.decode(base64Credentials);
-    const [username, password] = decodedCredentials.split(':');
-
-    if (username === expectedWebhookUser && password === expectedWebhookPassword) {
-      console.log('authenticateBasicAuth Middleware ', username, password);
-      next();
-    } else {
-      console.error('Webhook Basic Auth failed: Incorrect credentials.');
-      return res.status(401).send('Unauthorized: Incorrect Basic Auth credentials');
-    }
-  } catch (error) {
-    console.error('Error decoding Basic Auth header:', error);
-    return res.status(400).send('Bad Request: Invalid Basic Auth header format');
+// Middleware to protect routes
+function ensureAuthenticated(req, res, next) {
+  if (req.session.loggedIn) {
+    next();
+  } else {
+    res.redirect('/login');
   }
 }
 
@@ -130,14 +114,17 @@ async function initializeDatabase() {
 
 async function processRetentlyQueue() {
   try {
-    const interactionsToSend = await getInteractionsForRetently();
 
+    const interactionsToSend = await getInteractionsForRetently();
+    console.log("Entered in processRetentlyQueue", interactionsToSend);
     for (const interaction of interactionsToSend) {
       const retentlyData = {
         email: interaction.interaction_data?.requester?.email,
         first_name: interaction.interaction_data?.requester?.name,
         last_name: '',
       };
+
+      console.log("processRetentlyQueue", retentlyData)
 
       try {
         await axios.post(config.RETENTLY_WEBHOOK_URL, retentlyData);
@@ -153,10 +140,94 @@ async function processRetentlyQueue() {
   }
 }
 
+// Function to store data in Excel
+async function storeDataInExcel(data) {
+  try {
+    const workbook = new ExcelJS.Workbook();
+    let worksheet;
+
+    // Check if the file exists and load it, or create a new one
+    try {
+      await workbook.xlsx.readFile('dixa_data.xlsx');
+      worksheet = workbook.getWorksheet(1); // Get the first worksheet
+    } catch (error) {
+      worksheet = workbook.addWorksheet('Dixa Data'); // Create a new worksheet
+      // Add headers if it's a new file
+      worksheet.addRow(Object.keys(data));
+    }
+
+    // Add a new row with the data
+    worksheet.addRow(Object.values(data));
+
+    await workbook.xlsx.writeFile('dixa_data.xlsx');
+    console.log('Data stored in Excel.');
+  } catch (error) {
+    console.error('Error storing data in Excel:', error);
+  }
+}
+
+async function storeDataInDB(customerId, interactionData) {
+
+  const interactionType = 'webhook_event'; // Or determine based on the event
+
+  try {
+    const newInteraction = await saveCustomerInteraction(customerId, interactionType, interactionData);
+    // console.log('Webhook data saved to PostgreSQL:', newInteraction);
+    // res.status(200).send('Webhook received and data persisted.');
+  } catch (error) {
+    console.error('Error saving webhook data:', error);
+    // res.status(500).send('Internal Server Error');
+  }
+  
+}
+
+async function checkExistingCustomer(customerId, email) {
+  const client = await pool.connect();
+  try {
+    const result = await client.query(
+      "SELECT EXISTS(SELECT 1 FROM customer_interactions WHERE customer_id = $1 )",
+      [email]
+    );
+    return result.rows[0].exists;
+  } catch (error) {
+    console.error('Error checking existing customer:', error);
+    return true; // Assume exists to avoid processing if there's an error
+  } finally {
+    client.release();
+  }
+}
+
+function authenticateBasicAuth(req, res, next) {
+ 
+  const authHeader = req.headers.authorization;
+
+  if (!authHeader || !authHeader.startsWith('Basic ')) {
+    console.warn('Webhook received without Basic Auth header.');
+    return res.status(401).send('Unauthorized: Missing or invalid Basic Auth header');
+  }
+
+  const base64Credentials = authHeader.split(' ')[1];
+  try {
+    const decodedCredentials = base64.decode(base64Credentials);
+    const [username, password] = decodedCredentials.split(':');
+
+    if (username === expectedWebhookUser && password === expectedWebhookPassword) {
+      // Authentication successful, proceed to the next middleware or route handler
+      next();
+    } else {
+      console.error('Webhook Basic Auth failed: Incorrect credentials.');
+      return res.status(401).send('Unauthorized: Incorrect Basic Auth credentials');
+    }
+  } catch (error) {
+    console.error('Error decoding Basic Auth header:', error);
+    return res.status(400).send('Bad Request: Invalid Basic Auth header format');
+  }
+}
+
 app.post('/dixa-webhook', bodyParser.json(), authenticateBasicAuth, async (req, res) => {
   try {
     const dixaData = req.body.data;
-    console.log('dixaData => ', dixaData);
+    // console.log('dixaData => ', dixaData);
     const customerEmail = dixaData.conversation.requester?.email;
     const customerId = dixaData.customer?.id || customerEmail;
 
@@ -187,10 +258,10 @@ app.post('/dixa-webhook', bodyParser.json(), authenticateBasicAuth, async (req, 
     await storeDataInDB(customerId, dixaData.conversation);
 
     // Schedule Retently sending
-    await pool.query(
-      `UPDATE customer_interactions SET retently_scheduled_at = $1 WHERE customer_id = $2`,
-      [new Date(Date.now() + 12 * 60 * 60 * 1000), customerId]
-    );
+    await pool.query(`UPDATE customer_interactions SET retently_scheduled_at = $1 WHERE customer_id = $2`, [
+      new Date(Date.now() + 12 * 60 * 60 * 1000),
+      customerId,
+    ]);
 
     console.log(`Retently sending scheduled for ${customerId} in 12 hours.`);
 
@@ -201,118 +272,7 @@ app.post('/dixa-webhook', bodyParser.json(), authenticateBasicAuth, async (req, 
   }
 });
 
-app.get('/dixa-test', async (req, res) => {
-  console.log('connected');
-
-  try {
-    const { getCustomerInteractions } = require('./databaseOperations');
-    const page = parseInt(req.query.page, 10) || 1;
-    const pageSize = 10;
-
-    const { interactions, totalCount } = await getCustomerInteractions(page, pageSize);
-    const totalPages = Math.ceil(totalCount / pageSize);
-
-    let htmlTable = `
-      <!DOCTYPE html>
-      <html>
-      <head>
-        <title>Customer Interactions</title>
-        <style>
-          table {
-            border-collapse: collapse;
-            width: 80%;
-            margin: 20px auto;
-          }
-          th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-          }
-          th {
-            background-color: #f2f2f2;
-          }
-          .pagination {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-          }
-          .pagination a {
-            padding: 8px 16px;
-            text-decoration: none;
-            border: 1px solid #ddd;
-            background-color: white;
-            color: black;
-          }
-          .pagination a.active {
-            background-color: #4CAF50;
-            color: white;
-          }
-          .pagination a:hover:not(.active) {
-            background-color: #ddd;
-          }
-        </style>
-      </head>
-      <body>
-        <h1>Customer Interactions</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>ID</th>
-              <th>Customer ID</th>
-              <th>Interaction Type</th>
-              <th>Interaction Data</th>
-              <th>Created At</th>
-              <th>Retently Sent</th>
-              <th>Retently Scheduled At</th>
-            </tr>
-          </thead>
-          <tbody>
-    `;
-
-    if (interactions && interactions.length > 0) {
-      interactions.forEach((interaction) => {
-        htmlTable += `
-          <tr>
-            <td>${interaction.id}</td>
-            <td>${interaction.customer_id}</td>
-            <td>${interaction.interaction_type}</td>
-            <td>${JSON.stringify(interaction.interaction_data)}</td>
-            <td>${interaction.created_at}</td>
-            <td>${interaction.retently_sent}</td>
-            <td>${interaction.retently_scheduled_at}</td>
-          </tr>
-        `;
-      });
-    } else {
-      htmlTable += `
-          <tr>
-            <td colspan="7">No interactions found.</td>
-          </tr>
-        `;
-    }
-
-    htmlTable += `
-          </tbody>
-        </table>
-        <div class="pagination">
-    `;
-
-    for (let i = 1; i <= totalPages; i++) {
-      htmlTable += `<a href="?page=${i}" ${page === i ? 'class="active"' : ''}>${i}</a>`;
-    }
-
-    htmlTable += `
-        </div>
-      </body>
-      </html>
-    `;
-
-    res.send(htmlTable);
-  } catch (error) {
-    console.error('Error fetching and displaying data:', error);
-    res.status(500).send('Error retrieving data.');
-  }
-});
+app.use('/dixa-test', ensureAuthenticated, customerIntractionsRoute); // Mount the router
 
 async function startServer() {
   await initializeDatabase(); // Initialize the database on server start
