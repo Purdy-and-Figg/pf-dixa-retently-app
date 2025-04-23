@@ -14,25 +14,19 @@ async function saveCustomerInteraction(customerId, interactionType, interactionD
   }
 }
 
-async function getAllCustomerInteractions() {
+async function getCustomerInteractions(page = 1, pageSize = 10) {
   try {
+    const offset = (page - 1) * pageSize;
     const result = await pool.query(
-      'SELECT * FROM customer_interactions ORDER BY created_at DESC'
+      `SELECT * FROM customer_interactions ORDER BY created_at DESC LIMIT $1 OFFSET $2`,
+      [pageSize, offset]
     );
-    return result.rows;
-  } catch (error) {
-    console.error('Error fetching customer interactions:', error);
-    throw error;
-  }
-}
-
-async function getCustomerInteractions(customerId) {
-  try {
-    const result = await pool.query(
-      'SELECT * FROM customer_interactions WHERE customer_id = $1 ORDER BY created_at DESC',
-      [customerId]
-    );
-    return result.rows;
+    const countResult = await pool.query(`SELECT COUNT(*) FROM customer_interactions`);
+    const totalCount = parseInt(countResult.rows[0].count, 10);
+    return {
+      interactions: result.rows,
+      totalCount,
+    };
   } catch (error) {
     console.error('Error fetching customer interactions:', error);
     throw error;
@@ -86,10 +80,37 @@ async function updateCustomerInteraction(id, updates) {
   }
 }
 
+async function getInteractionsForRetently() {
+  try {
+    const twelveHoursAgo = new Date(Date.now() - 12 * 60 * 60 * 1000);
+    const result = await pool.query(
+      `SELECT * FROM customer_interactions WHERE retently_sent = FALSE AND retently_scheduled_at <= $1`,
+      [twelveHoursAgo]
+    );
+    return result.rows;
+  } catch (error) {
+    console.error('Error fetching interactions for Retently:', error);
+    throw error;
+  }
+}
+
+async function markRetentlySent(id) {
+  try {
+    await pool.query(
+      `UPDATE customer_interactions SET retently_sent = TRUE WHERE id = $1`,
+      [id]
+    );
+  } catch (error) {
+    console.error('Error marking Retently sent:', error);
+    throw error;
+  }
+}
+
 module.exports = {
   saveCustomerInteraction,
-  getAllCustomerInteractions,
   getCustomerInteractions,
   getCustomerInteractionById,
-  updateCustomerInteraction
+  updateCustomerInteraction,
+  getInteractionsForRetently,
+  markRetentlySent,
 };
