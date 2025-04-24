@@ -259,11 +259,11 @@ app.post('/dixa-webhook', bodyParser.json(), authenticateBasicAuth, async (req, 
 
     // Schedule Retently sending
     await pool.query(`UPDATE customer_interactions SET retently_scheduled_at = $1 WHERE customer_id = $2`, [
-      new Date(Date.now() + 12 * 60 * 60 * 1000),
+      new Date(Date.now() + process.env.SENT_MAIL_AFTER * 60 * 60 * 1000),
       customerId,
     ]);
 
-    console.log(`Retently sending scheduled for ${customerId} in 12 hours.`);
+    console.log(`Retently sending scheduled for ${customerId} in ${process.env.SENT_MAIL_AFTER} hours.`);
 
     res.status(200).send('Webhook processed. Retently sending scheduled.');
   } catch (error) {
