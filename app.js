@@ -114,25 +114,53 @@ async function initializeDatabase() {
 
 async function processRetentlyQueue() {
   try {
+    const isTestMode = process.env.IS_TEST_MODE === '1';
+    const testEmailString = process.env.TEST_EMAIL_STRING || '';
 
     const interactionsToSend = await getInteractionsForRetently();
-    console.log("Entered in processRetentlyQueue", interactionsToSend);
+    console.log("Entered in processRetentlyQueue", interactionsToSend, { isTestMode, testEmailString });
+
     for (const interaction of interactionsToSend) {
+      const customerEmail = interaction.interaction_data?.requester?.email;
+
+      if (!customerEmail) {
+        console.warn(`Skipping interaction ${interaction.id}: Customer email not found.`);
+        continue; // Move to the next interaction
+      }
+
       const retentlyData = {
-        email: interaction.interaction_data?.requester?.email,
-        first_name: interaction.interaction_data?.requester?.name,
+        email: customerEmail,
+        first_name: interaction.interaction_data?.requester?.name || '',
         last_name: '',
       };
 
-      console.log("processRetentlyQueue", retentlyData)
+      console.log("processRetentlyQueue", retentlyData);
 
-      try {
-        await axios.post(config.RETENTLY_WEBHOOK_URL, retentlyData);
-        console.log(`Data sent to Retently for ${interaction.customer_id}.`);
-        await markRetentlySent(interaction.id); // Mark as sent in the database
-      } catch (error) {
-        console.error(`Error sending data to Retently for ${interaction.customer_id}:`, error);
-        // Consider logging the error or implementing a retry mechanism
+      if (isTestMode) {
+        if (customerEmail.includes(testEmailString)) {
+          console.log(`[TEST MODE] Sending data to Retently for test customer: ${interaction.customer_id} (${customerEmail})`);
+          try {
+            await axios.post(config.RETENTLY_WEBHOOK_URL, retentlyData);
+            console.log(`[TEST MODE] Data sent to Retently for ${interaction.customer_id}.`);
+            await markRetentlySent(interaction.id); // Mark as sent in the database
+          } catch (error) {
+            console.error(`[TEST MODE] Error sending data to Retently for ${interaction.customer_id}:`, error);
+            // Consider logging the error or implementing a retry mechanism
+          }
+        } else {
+          console.warn(`[TEST MODE] Skipping sending email to production customer: ${interaction.customer_id} (${customerEmail})`);
+          // Optionally log this skip in more detail
+        }
+      } else {
+        // IS_TEST_MODE is 0, send to Retently for all customers
+        try {
+          await axios.post(config.RETENTLY_WEBHOOK_URL, retentlyData);
+          console.log(`Data sent to Retently for ${interaction.customer_id} (${customerEmail}).`);
+          await markRetentlySent(interaction.id); // Mark as sent in the database
+        } catch (error) {
+          console.error(`Error sending data to Retently for ${interaction.customer_id}:`, error);
+          // Consider logging the error or implementing a retry mechanism
+        }
       }
     }
   } catch (error) {
